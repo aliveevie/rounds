@@ -1,0 +1,16 @@
+# flow
+emulator-account.pkey
+testnet-account.pkey
+imports
+.env
+.env.local
+
+# node
+node_modules/
+.next/
+
+# nested repos
+frontend/
+
+# os
+.DS_Store
