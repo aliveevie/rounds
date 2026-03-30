@@ -1,0 +1,59 @@
+{
+  "contracts": {
+    "Rounds": "./cadence/contracts/Rounds.cdc"
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": {
+        "type": "file",
+        "location": "emulator-account.pkey"
+      }
+    },
+    "account-2": {
+      "address": "179b6b1cb6755e31",
+      "key": {
+        "type": "file",
+        "location": "emulator-account.pkey"
+      }
+    },
+    "testnet-account": {
+      "address": "0x0109b1ade020b5d7",
+      "key": {
+        "type": "file",
+        "location": "testnet-account.pkey"
+      }
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "emulator-account": ["Rounds"]
+    },
+    "testnet": {
+      "testnet-account": ["Rounds"]
+    }
+  },
+  "dependencies": {
+    "FungibleToken": {
+      "source": "emulator://ee82856bf20e2aa6.FungibleToken",
+      "aliases": {
+        "emulator": "0xee82856bf20e2aa6",
+        "testnet": "0x9a0766d93b6608b7",
+        "mainnet": "0xf233dcee88fe0abe"
+      }
+    },
+    "FlowToken": {
+      "source": "emulator://0ae53cb6e3f42a79.FlowToken",
+      "aliases": {
+        "emulator": "0x0ae53cb6e3f42a79",
+        "testnet": "0x7e60df042a9c0868",
+        "mainnet": "0x1654653399040a61"
+      }
+    }
+  }
+}
