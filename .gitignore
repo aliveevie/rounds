@@ -9,8 +9,5 @@ imports
 node_modules/
 .next/
 
-# nested repos
-frontend/
-
 # os
 .DS_Store
