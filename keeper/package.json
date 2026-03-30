@@ -1,0 +1,12 @@
+{
+  "name": "rounds-keeper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@onflow/fcl": "^1.13.1",
+    "@onflow/types": "^1.4.1"
+  }
+}
