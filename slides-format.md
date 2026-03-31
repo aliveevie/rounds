@@ -8,7 +8,7 @@ Yield-Amplified Rotating Savings on Flow
 
 - Tagline: "Save Together. Earn Together."
 - Logo + Flow branding
-- Team: IBX Lab — Abuja, Nigeria
+- Team: IBX Lab
 - Hackathon name + date
 
 ---
